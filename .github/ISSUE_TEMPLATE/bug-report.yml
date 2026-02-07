@@ -1,0 +1,79 @@
+name: Bug report
+description: Report a reproducible problem in a Hanabi target theme.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue.
+        Please include enough detail to reproduce the problem.
+  - type: dropdown
+    id: target
+    attributes:
+      label: Target
+      description: Which target theme has the issue?
+      options:
+        - Visual Studio Code
+        - Ghostty
+        - Terminal.app (macOS)
+        - Windows Terminal
+        - Cursor
+        - Vim / Neovim
+        - Zsh
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: theme_version
+    attributes:
+      label: Theme version
+      description: Version number, commit hash, or package build.
+      placeholder: "example: v0.1.0 or 1a2b3c4"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List exact steps so we can reproduce the issue.
+      placeholder: |
+        1. Open ...
+        2. Set theme to ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or recordings
+      description: Drag and drop images if visual output is wrong.
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, app version, terminal/editor version, and any relevant plugins.
+      placeholder: |
+        - OS:
+        - App:
+        - Version:
+        - Extensions/plugins:
+    validations:
+      required: true

@@ -1,0 +1,187 @@
+{
+  "name": "Hanabi Seed 35",
+  "reference": "Hanabi-inspired (high-contrast dark base)",
+  "status": "calibration-only",
+  "note": "Calibration palette tuned for stronger contrast, with neon-leaning cyan/yellow and a more saturated pink-magenta range while avoiding exact color-code overlap with external reference palettes.",
+  "base": [
+    {
+      "id": "base.00",
+      "name": "background",
+      "hex": "#21202C"
+    },
+    {
+      "id": "base.01",
+      "name": "foreground",
+      "hex": "#FCFCFA"
+    },
+    {
+      "id": "base.02",
+      "name": "selection",
+      "hex": "#4A435D"
+    },
+    {
+      "id": "base.03",
+      "name": "comment",
+      "hex": "#5C6E89"
+    },
+    {
+      "id": "base.04",
+      "name": "cyan",
+      "hex": "#5CFFF0"
+    },
+    {
+      "id": "base.05",
+      "name": "green",
+      "hex": "#82FA82"
+    },
+    {
+      "id": "base.06",
+      "name": "orange",
+      "hex": "#FFB65E"
+    },
+    {
+      "id": "base.07",
+      "name": "pink",
+      "hex": "#FF6FA0"
+    },
+    {
+      "id": "base.08",
+      "name": "purple",
+      "hex": "#6F90FF"
+    },
+    {
+      "id": "base.09",
+      "name": "red",
+      "hex": "#FB6583"
+    },
+    {
+      "id": "base.10",
+      "name": "yellow",
+      "hex": "#FFF066"
+    }
+  ],
+  "ansi": [
+    {
+      "id": "ansi.00",
+      "name": "black",
+      "hex": "#20232E"
+    },
+    {
+      "id": "ansi.01",
+      "name": "red",
+      "hex": "#FC6B74"
+    },
+    {
+      "id": "ansi.02",
+      "name": "green",
+      "hex": "#87F879"
+    },
+    {
+      "id": "ansi.03",
+      "name": "yellow",
+      "hex": "#FFE74A"
+    },
+    {
+      "id": "ansi.04",
+      "name": "blue",
+      "hex": "#6D92F7"
+    },
+    {
+      "id": "ansi.05",
+      "name": "magenta",
+      "hex": "#E66B9A"
+    },
+    {
+      "id": "ansi.06",
+      "name": "cyan",
+      "hex": "#4FFAF7"
+    },
+    {
+      "id": "ansi.07",
+      "name": "white",
+      "hex": "#F8FFF4"
+    },
+    {
+      "id": "ansi.08",
+      "name": "brightBlack",
+      "hex": "#667893"
+    },
+    {
+      "id": "ansi.09",
+      "name": "brightRed",
+      "hex": "#FEA8AC"
+    },
+    {
+      "id": "ansi.10",
+      "name": "brightGreen",
+      "hex": "#B9FFAC"
+    },
+    {
+      "id": "ansi.11",
+      "name": "brightYellow",
+      "hex": "#FFF79E"
+    },
+    {
+      "id": "ansi.12",
+      "name": "brightBlue",
+      "hex": "#A3B9FF"
+    },
+    {
+      "id": "ansi.13",
+      "name": "brightMagenta",
+      "hex": "#F299BD"
+    },
+    {
+      "id": "ansi.14",
+      "name": "brightCyan",
+      "hex": "#92FFF2"
+    },
+    {
+      "id": "ansi.15",
+      "name": "brightWhite",
+      "hex": "#FFF6F6"
+    }
+  ],
+  "uiElements": [
+    {
+      "id": "ui.00",
+      "name": "surface0",
+      "hex": "#333141"
+    },
+    {
+      "id": "ui.01",
+      "name": "surface1",
+      "hex": "#383454"
+    },
+    {
+      "id": "ui.02",
+      "name": "contrastText",
+      "hex": "#FAF9F9"
+    },
+    {
+      "id": "ui.03",
+      "name": "surface2",
+      "hex": "#302D43"
+    },
+    {
+      "id": "ui.04",
+      "name": "surface3",
+      "hex": "#444652"
+    },
+    {
+      "id": "ui.05",
+      "name": "activityBar",
+      "hex": "#2C2842"
+    },
+    {
+      "id": "ui.06",
+      "name": "sideBar",
+      "hex": "#161422"
+    },
+    {
+      "id": "ui.07",
+      "name": "titleBar",
+      "hex": "#0C0B11"
+    }
+  ]
+}

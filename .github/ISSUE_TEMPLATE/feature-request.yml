@@ -1,0 +1,57 @@
+name: Feature request
+description: Suggest an improvement to a Hanabi theme target or tooling.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+        Clear use-cases and scope help prioritize requests.
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: What area does this request affect?
+      options:
+        - Visual Studio Code
+        - Ghostty
+        - Terminal.app (macOS)
+        - Windows Terminal
+        - Cursor
+        - Vim / Neovim
+        - Zsh
+        - Repository docs/tooling
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What pain point are you trying to solve?
+      placeholder: Describe the current limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your preferred change.
+      placeholder: Explain what should be added or changed.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workaround or alternative approach?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include screenshots, references, or examples if helpful.
+    validations:
+      required: false

@@ -1,0 +1,43 @@
+{
+  "name": "hanabi-theme-vscode",
+  "displayName": "Hanabi Theme (VS Code)",
+  "description": "Hanabi color theme for Visual Studio Code.",
+  "version": "0.1.3",
+  "publisher": "okash1n",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hanabi",
+        "uiTheme": "vs-dark",
+        "path": "./hanabi-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "homepage": "https://github.com/hanabi-works/hanabi-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanabi-works/hanabi-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanabi-works/hanabi-theme/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hanabi",
+    "theme",
+    "dark",
+    "color-theme",
+    "vscode"
+  ],
+  "galleryBanner": {
+    "color": "#21202C",
+    "theme": "dark"
+  }
+}

@@ -1,0 +1,50 @@
+name: Tool support request
+description: Request support or improvements for a specific tool target.
+title: "[Support]: "
+labels:
+  - support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project prioritizes personal-use tools and VS Code distribution first.
+        Requests for other tools are handled on a best-effort basis.
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool name
+      description: Name of the tool or integration.
+      placeholder: "example: iTerm2"
+    validations:
+      required: true
+  - type: input
+    id: tool_version
+    attributes:
+      label: Tool version
+      description: Version number you are using.
+      placeholder: "example: 3.5.0"
+    validations:
+      required: false
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Why is support for this tool useful?
+      placeholder: Describe your workflow and why Hanabi support matters.
+    validations:
+      required: true
+  - type: textarea
+    id: desired_outcome
+    attributes:
+      label: Desired outcome
+      description: What should be provided (theme file format, installer, docs)?
+      placeholder: Describe what "done" looks like.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Official docs or example repos for this tool's theme format.
+    validations:
+      required: false
