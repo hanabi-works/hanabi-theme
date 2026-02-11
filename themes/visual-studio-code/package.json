@@ -1,8 +1,8 @@
 {
   "name": "hanabi-theme-vscode",
   "displayName": "Hanabi Theme (VS Code)",
-  "description": "Hanabi color theme for Visual Studio Code.",
-  "version": "0.1.3",
+  "description": "Hanabi dark theme with a Dracula-style light alias for Visual Studio Code.",
+  "version": "0.2.0",
   "publisher": "okash1n",
   "engines": {
     "vscode": "^1.80.0"
@@ -16,6 +16,11 @@
         "label": "Hanabi",
         "uiTheme": "vs-dark",
         "path": "./hanabi-color-theme.json"
+      },
+      {
+        "label": "Hanabi Light",
+        "uiTheme": "vs",
+        "path": "./hanabi-light-color-theme.json"
       }
     ]
   },
@@ -33,6 +38,7 @@
     "hanabi",
     "theme",
     "dark",
+    "light",
     "color-theme",
     "vscode"
   ],

@@ -1,0 +1,23 @@
+{
+  "name": "Hanabi Light",
+  "background": "#21202C",
+  "foreground": "#FCFCFA",
+  "cursorColor": "#FCFCFA",
+  "selectionBackground": "#4A435D",
+  "black": "#20232E",
+  "red": "#FC6B74",
+  "green": "#87F879",
+  "yellow": "#FFE74A",
+  "blue": "#6D92F7",
+  "purple": "#E66B9A",
+  "cyan": "#4FFAF7",
+  "white": "#F8FFF4",
+  "brightBlack": "#667893",
+  "brightRed": "#FEA8AC",
+  "brightGreen": "#B9FFAC",
+  "brightYellow": "#FFF79E",
+  "brightBlue": "#A3B9FF",
+  "brightPurple": "#F299BD",
+  "brightCyan": "#92FFF2",
+  "brightWhite": "#FFF6F6"
+}

@@ -1,8 +1,8 @@
 # iTerm2 Theme
 
-Hanabi color scheme for iTerm2.
+Hanabi dark color scheme for iTerm2 plus a Dracula-style light alias.
 
 ## Files
-- `hanabi.itermcolors` - iTerm2 color scheme
+- `hanabi.itermcolors` - dark color scheme
+- `hanabi-light.itermcolors` - dark-palette alias
 - `INSTALL.md` - installation instructions
-

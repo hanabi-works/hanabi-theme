@@ -1,0 +1,25 @@
+# Hanabi Light for Ghostty
+# Dracula-style alias: same dark palette as hanabi
+# Generated from palette/hanabi-seed-35.json
+palette = 0=#20232E
+palette = 1=#FC6B74
+palette = 2=#87F879
+palette = 3=#FFE74A
+palette = 4=#6D92F7
+palette = 5=#E66B9A
+palette = 6=#4FFAF7
+palette = 7=#F8FFF4
+palette = 8=#667893
+palette = 9=#FEA8AC
+palette = 10=#B9FFAC
+palette = 11=#FFF79E
+palette = 12=#A3B9FF
+palette = 13=#F299BD
+palette = 14=#92FFF2
+palette = 15=#FFF6F6
+background = #21202C
+foreground = #FCFCFA
+cursor-color = #FCFCFA
+cursor-text = #21202C
+selection-background = #4A435D
+selection-foreground = #FCFCFA

@@ -1,6 +1,6 @@
 # Hanabi Theme
 
-An original high-contrast dark theme family for terminals and editors.
+An original high-contrast theme family for terminals and editors (dark-first, with Dracula-style light aliases).
 
 ![Hanabi Theme Preview](./samples/image.png)
 
@@ -18,9 +18,13 @@ You can also contact me on X: [@okash1n](https://x.com/okash1n).
 The project is built from a shared palette source.
 
 ![Hanabi Seed 35](./palette/hanabi-seed-35.svg)
+![Hanabi Seed 35 Light Sample](./palette/hanabi-seed-35-light.svg)
 
 - Palette source: `palette/hanabi-seed-35.json`
 - Palette preview: `palette/hanabi-seed-35.svg`
+- Light sample preview: `palette/hanabi-seed-35-light.svg`
+- `hanabi-seed-35-light` is a visual sample for how Seed 35 accents may look in a light environment.
+- Current distributed themes use a dark-first strategy; light variants are compatibility aliases unless noted otherwise.
 
 ## Supported Targets
 
@@ -34,6 +38,21 @@ The project is built from a shared palette source.
 | Cursor | Ready | `themes/cursor` |
 | Vim / Neovim | Ready | `themes/vim` |
 | Zsh | Ready | `themes/zsh` |
+| Obsidian | Ready | `themes/obsidian` |
+
+## Dark / Light Support
+
+| Target | Dark | Light | Notes |
+| --- | --- | --- | --- |
+| Ghostty | Yes | Yes | `hanabi-light` is a dark-palette alias |
+| iTerm2 | Yes | Yes | `hanabi-light.itermcolors` is a dark-palette alias |
+| Terminal.app (macOS) | Yes | Yes | `Hanabi Light` profile is a dark-palette alias |
+| Visual Studio Code | Yes | Yes | `Hanabi Light` keeps the same dark palette |
+| Windows Terminal | Yes | Yes | `hanabi-light.json` keeps the same dark palette |
+| Cursor | Yes | Yes | `Hanabi Light` keeps the same dark palette |
+| Vim / Neovim | Yes | Yes | `hanabi_light.vim` is a dark-palette alias |
+| Zsh | Yes | Yes | light prompt files are dark-palette aliases |
+| Obsidian | Yes | Yes | `.theme-dark` and `.theme-light` are intentionally unified |
 
 ## Install
 
@@ -47,6 +66,7 @@ Each target has its own installation guide.
 - Cursor: `themes/cursor/INSTALL.md`
 - Vim / Neovim: `themes/vim/INSTALL.md`
 - Zsh: `themes/zsh/INSTALL.md`
+- Obsidian: `themes/obsidian/INSTALL.md`
 
 ## Repository Layout
 
@@ -64,8 +84,22 @@ Each target has its own installation guide.
     ├── vim
     ├── visual-studio-code
     ├── windows-terminal
-    └── zsh
+    ├── zsh
+    └── obsidian
 ```
+
+## Obsidian Theme
+
+Hanabi includes an Obsidian app theme where dark and light base schemes intentionally render the same dark visual identity (Dracula-style).
+
+- Required files for Obsidian community theme publishing:
+  - `manifest.json`
+  - `theme.css`
+  - `versions.json`
+- Store screenshot:
+  - `images/obsidian-preview.png` (512x288)
+
+To preview the theme in Obsidian, follow `themes/obsidian/INSTALL.md`.
 
 ## Notes
 

@@ -1,6 +1,6 @@
 # Hanabi Theme for Visual Studio Code
 
-A high-contrast dark theme designed around the Hanabi palette.
+High-contrast Hanabi dark theme with a Dracula-style light alias (same dark palette).
 
 ![Hanabi Theme Preview](./images/preview.png)
 
@@ -8,7 +8,7 @@ A high-contrast dark theme designed around the Hanabi palette.
 
 1. Open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
 2. Run `Preferences: Color Theme`
-3. Select `Hanabi`
+3. Select `Hanabi` (dark) or `Hanabi Light` (dark-palette alias)
 
 ## Palette
 

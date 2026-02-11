@@ -1,7 +1,8 @@
 # Ghostty Theme
 
-Hanabi theme for Ghostty.
+Hanabi dark theme for Ghostty plus a Dracula-style light alias.
 
 ## Files
-- `hanabi` - Ghostty theme file
+- `hanabi` - dark theme file
+- `hanabi-light` - dark-palette alias
 - `INSTALL.md` - installation instructions

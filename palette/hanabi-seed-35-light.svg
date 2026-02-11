@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1716" height="940" viewBox="0 0 1716 940" role="img" aria-labelledby="title desc">
+  <title id="title">Hanabi Seed 35 Light Sample Preview</title>
+  <desc id="desc">Visual sample: Hanabi Seed 35 accents on a light environment background.</desc>
+  <rect x="0" y="0" width="1716" height="940" fill="#E9EEFF" />
+  <text x="40" y="56" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="28" font-weight="700">Hanabi Seed 35 Light Sample Preview</text>
+  <text x="40" y="86" fill="#2b395d" font-family="Menlo, Monaco, Consolas, monospace" font-size="16">Card background reflects practical usage context for each token</text>
+  <text x="40" y="110" fill="#4a5d89" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">Light sample generated from palette/hanabi-seed-35.json</text>
+  
+  <g transform="translate(40 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#21202C" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.00 background</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#21202C</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(276 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FCFCFA" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.01 foreground</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FCFCFA</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(512 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#4A435D" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.02 selection</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#4A435D</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(748 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#5C6E89" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.03 comment</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#5C6E89</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(984 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#5CFFF0" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.04 cyan</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#5CFFF0</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1220 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#82FA82" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.05 green</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#82FA82</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1456 140)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FFB65E" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.06 orange</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FFB65E</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(40 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FF6FA0" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.07 pink</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FF6FA0</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(276 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#6F90FF" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.08 purple</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#6F90FF</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(512 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FB6583" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.09 red</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FB6583</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(748 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FFF066" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">base.10 yellow</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FFF066</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(984 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#20232E" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.00 black</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#20232E</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1220 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FC6B74" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.01 red</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FC6B74</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1456 292)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#87F879" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.02 green</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#87F879</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(40 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FFE74A" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.03 yellow</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FFE74A</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(276 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#6D92F7" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.04 blue</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#6D92F7</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(512 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#E66B9A" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.05 magenta</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#E66B9A</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(748 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#4FFAF7" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.06 cyan</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#4FFAF7</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(984 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#F8FFF4" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.07 white</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#F8FFF4</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1220 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#667893" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.08 brightBlack</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#667893</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1456 444)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FEA8AC" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.09 brightRed</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FEA8AC</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(40 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#B9FFAC" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.10 brightGreen</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#B9FFAC</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(276 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FFF79E" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.11 brightYellow</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FFF79E</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(512 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#A3B9FF" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.12 brightBlue</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#A3B9FF</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(748 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#F299BD" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.13 brightMagenta</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#F299BD</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(984 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#92FFF2" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.14 brightCyan</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#92FFF2</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1220 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#F7F9FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FFF6F6" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ansi.15 brightWhite</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FFF6F6</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.surface lightSurface (#F7F9FF)</text>
+  </g>
+
+  <g transform="translate(1456 596)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#333141" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.00 surface0</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#333141</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(40 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#383454" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.01 surface1</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#383454</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(276 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#FAF9F9" stroke="#00000026" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.02 contrastText</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#FAF9F9</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(512 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#302D43" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.03 surface2</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#302D43</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(748 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#444652" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.04 surface3</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#444652</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(984 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#2C2842" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.05 activityBar</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#2C2842</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(1220 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#161422" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.06 sideBar</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#161422</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+
+  <g transform="translate(1456 748)">
+    <rect x="0" y="0" width="220" height="136" rx="12" fill="#EDF2FF" stroke="#9da9cc" stroke-width="1" />
+    <rect x="12" y="12" width="196" height="66" rx="8" fill="#0C0B11" stroke="#00000033" stroke-width="1" />
+    <text x="12" y="96" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">ui.07 titleBar</text>
+    <text x="12" y="113" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="13">#0C0B11</text>
+    <text x="12" y="129" fill="#172035" font-family="Menlo, Monaco, Consolas, monospace" font-size="11">on sample.panel lightPanel (#EDF2FF)</text>
+  </g>
+</svg>
