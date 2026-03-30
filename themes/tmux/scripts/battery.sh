@@ -70,7 +70,25 @@ get_battery_status()
       ;;
 
     Darwin)
-      status=$(pmset -g batt | sed -n 2p | cut -d ';' -f 2 | tr -d " ")
+      pmset_output="$(pmset -g batt)"
+      power_source="$(printf '%s\n' "$pmset_output" | sed -n '1p')"
+      battery_state="$(printf '%s\n' "$pmset_output" | sed -n '2p' | cut -d ';' -f 2 | tr -d ' ')"
+
+      if printf '%s' "$power_source" | grep -q "AC Power"; then
+        case "$battery_state" in
+          charging|Charging)
+            status="Charging"
+            ;;
+          charged|Charged|Full|finishingcharge|"Notcharging"|"Not charging")
+            status="ACattached"
+            ;;
+          *)
+            status="$battery_state"
+            ;;
+        esac
+      else
+        status="$battery_state"
+      fi
       ;;
 
     FreeBSD)
@@ -137,7 +155,7 @@ parse_battery_status()
       # ACattached - MacOS
       # Not charging - Linux without acpi
       # Notcharging - Linux with acpi
-      echo ''
+      echo '󰂅'
       ;;
     finishingcharge)
       echo '󰂅'
@@ -160,7 +178,7 @@ parse_battery_status()
 main()
 {
   # get left most custom label
-  bat_label=$(get_tmux_option "@hanabi-battery-label" "♥")
+  bat_label=$(get_tmux_option "@hanabi-battery-label" false)
   if [ "$bat_label" == false ]; then
     bat_label=""
   fi
@@ -182,12 +200,14 @@ main()
     IFS=$'\n' read -rd '' -a stats <<<"$(get_battery_status)"
     IFS=$'\n' read -rd '' -a lbls <<<"$bat_label"
     num_bats=${#percs[@]}
-    show_bat_label=$(get_tmux_option "@hanabi-show-battery-status" false)
+    show_bat_label=$(get_tmux_option "@hanabi-show-battery-status" true)
     for ((i=0; i<num_bats; i++)); do
       if [[ i -gt 0 ]]; then
         echo -n "$(get_tmux_option "@hanabi-battery-separator" "; ")"
       fi
-      echo -n "${lbls[$i]}"
+      if [[ -n "${lbls[$i]}" ]]; then
+        echo -n "${lbls[$i]} "
+      fi
       if $show_bat_label; then
         echo -n "$(parse_battery_status "${percs[$i]}" "${stats[$i]}") "
       fi

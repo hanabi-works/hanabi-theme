@@ -4,6 +4,7 @@ current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $current_dir/utils.sh
 
 IFS=' ' read -r -a hide_status <<< $(get_tmux_option "@hanabi-git-disable-status" "false")
+IFS=' ' read -r -a git_icon <<< $(get_tmux_option "@hanabi-git-icon" "")
 IFS=' ' read -r -a current_symbol <<< $(get_tmux_option "@hanabi-git-show-current-symbol" "✓")
 IFS=' ' read -r -a diff_symbol <<< $(get_tmux_option "@hanabi-git-show-diff-symbol" "!")
 IFS=' ' read -r -a no_repo_message <<< $(get_tmux_option "@hanabi-git-no-repo-message" "")
@@ -152,23 +153,23 @@ getMessage()
             
             if [ "${hide_status}" == "false" ]; then
                if [ "$(checkEmptySymbol "${diff_symbol[0]}")" = "true" ]; then
-		     output="$repo_name${changes:+ ${changes}} $branch"
+		     output="${git_icon[0]} $repo_name${changes:+${changes} }$branch"
                 else
-		     output="$repo_name${diff_symbol[0]} ${changes:+$changes }$branch"
+		     output="${git_icon[0]} $repo_name${diff_symbol[0]} ${changes:+$changes }$branch"
                 fi
             else
                if [ "$(checkEmptySymbol "${diff_symbol[0]}")" = "true" ]; then
-		     output=$(echo "$repo_name$branch")
+		     output=$(echo "${git_icon[0]} $repo_name$branch")
                 else
-		     output=$(echo "$repo_name$diff_symbol $branch")
+		     output=$(echo "${git_icon[0]} $repo_name$diff_symbol $branch")
                 fi
             fi
 
         else
             if [ $(checkEmptySymbol $current_symbol) == "true" ]; then
-	         output=$(echo "$repo_name$branch")
+	         output=$(echo "${git_icon[0]} $repo_name$branch")
             else
-		      output="$repo_name${current_symbol[0]} $branch"
+		      output="${git_icon[0]} $repo_name${current_symbol[0]} $branch"
             fi
         fi
 

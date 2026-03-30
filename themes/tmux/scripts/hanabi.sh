@@ -20,6 +20,7 @@ main() {
   fixed_location=$(get_tmux_option "@hanabi-fixed-location")
   weather_hide_errors=$(get_tmux_option "@hanabi-weather-hide-errors" false)
   show_powerline=$(get_tmux_option "@hanabi-show-powerline" false)
+  compact_width=$(get_tmux_option "@hanabi-compact-width" 120)
   transparent_powerline_bg=$(get_tmux_option "@hanabi-transparent-powerline-bg" false)
   show_flags=$(get_tmux_option "@hanabi-show-flags" false)
   show_left_icon=$(get_tmux_option "@hanabi-show-left-icon" "#h | #S")
@@ -127,7 +128,6 @@ main() {
     padding="$(printf '%*s' $show_left_icon_padding)"
   fi
   left_icon="$left_icon$padding"
-
   # Handle powerline option
   if $show_powerline; then
     right_sep="$show_right_sep"
@@ -189,21 +189,23 @@ main() {
 
   # Status left
   if $show_powerline; then
+    compact_status_left=""
     if $show_edge_icons; then
-      tmux set-option -g status-left "#[bg=${bg_color}]#[fg=${cyan}]#{?client_prefix,#[fg=${yellow}],}${show_right_sep}#[bg=${cyan}]#[fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}]#[fg=${dark_gray}],} ${left_icon} #[fg=${cyan}]#[bg=${bg_color}]#{?client_prefix,#[fg=${yellow}],}${left_sep} "
+      full_status_left="#[bg=${bg_color}]#[fg=${cyan}]#{?client_prefix,#[fg=${yellow}],}${show_right_sep}#[bg=${cyan}]#[fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}]#[fg=${dark_gray}],} ${left_icon} #[fg=${cyan}]#[bg=${bg_color}]#{?client_prefix,#[fg=${yellow}],}${left_sep} "
     else
-      tmux set-option -g status-left "#[bg=${cyan}]#[fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}]#[fg=${dark_gray}],} ${left_icon} #[fg=${cyan}]#[bg=${bg_color}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
+      full_status_left="#[bg=${cyan}]#[fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}]#[fg=${dark_gray}],} ${left_icon} #[fg=${cyan}]#[bg=${bg_color}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
     fi
     powerbg=${bg_color}
   else
-    tmux set-option -g status-left "#[bg=${cyan}]#[fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}]#[fg=${dark_gray}],} ${left_icon} "
+    full_status_left="#[bg=${cyan}]#[fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}]#[fg=${dark_gray}],} ${left_icon} "
+    compact_status_left=""
   fi
 
   # Status right
-  tmux set-option -g status-right ""
+  full_status_right=""
+  compact_status_right=""
 
   for plugin in "${plugins[@]}"; do
-
     if case $plugin in custom:*) true;; *) false;; esac; then
       script=${plugin#"custom:"}
       if [[ -x "${current_dir}/${script}" ]]; then
@@ -390,16 +392,16 @@ main() {
 
     if $show_powerline; then
       if $show_empty_plugins; then
-        tmux set-option -ga status-right " #[fg=${!colors[0]}]#[bg=${background_color}]#[nobold]#[nounderscore]#[noitalics]${right_sep}#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script$right_edge_icon"
+        full_status_right+=" #[fg=${!colors[0]}]#[bg=${background_color}]#[nobold]#[nounderscore]#[noitalics]${right_sep}#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script$right_edge_icon"
       else
-        tmux set-option -ga status-right "#{?#{==:$script,},,#[fg=${!colors[0]}]#[nobold]#[nounderscore]#[noitalics]${right_sep}#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script$right_edge_icon}"
-    fi
+        full_status_right+="#{?#{==:$script,},,#[fg=${!colors[0]}]#[nobold]#[nounderscore]#[noitalics]${right_sep}#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script$right_edge_icon}"
+      fi
       powerbg=${!colors[0]}
     else
       if $show_empty_plugins; then
-        tmux set-option -ga status-right "#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script"
+        full_status_right+="#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script"
       else
-        tmux set-option -ga status-right "#{?#{==:$script,},,#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script}"
+        full_status_right+="#{?#{==:$script,},,#[fg=${!colors[1]}]#[bg=${!colors[0]}]$pad_script}"
       fi
     fi
 
@@ -412,16 +414,25 @@ main() {
   tmux set-window-option -g window-status-last-style "fg=${white},bg=${bg_color}"
 
   if $show_powerline; then
-    tmux set-window-option -g window-status-current-format "#[fg=${yellow}]#[bg=${bg_color}]${show_right_sep}#[fg=${dark_gray}]#[bg=${yellow}]  #S / #I #W${current_flags} #[fg=${yellow}]#[bg=${bg_color}]${show_left_sep}"
+    full_window_status_current_format="#[fg=${yellow}]#[bg=${bg_color}]${show_right_sep}#[fg=${dark_gray}]#[bg=${yellow}]  #S / #I #W${current_flags} #[fg=${yellow}]#[bg=${bg_color}]${show_left_sep}"
+    compact_window_status_current_format="#[fg=${yellow}]#[bg=${bg_color}]${show_right_sep}#[fg=${dark_gray}]#[bg=${yellow}]  #S / #I #W${current_flags} #[fg=${yellow}]#[bg=${bg_color}]${show_left_sep}"
   else
-    tmux set-window-option -g window-status-current-format "#[fg=${dark_gray}]#[bg=${yellow}]  #S / #I #W${current_flags} "
+    full_window_status_current_format="#[fg=${dark_gray}]#[bg=${yellow}]  #S / #I #W${current_flags} "
+    compact_window_status_current_format="#[fg=${dark_gray}]#[bg=${yellow}]  #S / #I #W${current_flags} "
   fi
 
   if $show_powerline; then
-    tmux set-window-option -g window-status-format "#[fg=${surface2}]#[bg=${bg_color}]${show_right_sep}#[fg=${white}]#[bg=${bg_color}] #I #W${flags} #[fg=${surface2}]#[bg=${bg_color}]${show_left_sep}"
+    full_window_status_format="#[fg=${surface2}]#[bg=${bg_color}]${show_right_sep}#[fg=${white}]#[bg=${bg_color}] #I #W${flags} #[fg=${surface2}]#[bg=${bg_color}]${show_left_sep}"
+    compact_window_status_format=""
   else
-    tmux set-window-option -g window-status-format "#[fg=${comment}]#[bg=${bg_color}] #I #[fg=${white}] #W${flags} "
+    full_window_status_format="#[fg=${comment}]#[bg=${bg_color}] #I #[fg=${white}] #W${flags} "
+    compact_window_status_format=""
   fi
+
+  tmux set-option -g status-left "#{?#{e|<=|f|0:#{client_width},${compact_width}},${compact_status_left},${full_status_left}}"
+  tmux set-option -g status-right "#{?#{e|<=|f|0:#{client_width},${compact_width}},${compact_status_right},${full_status_right}}"
+  tmux set-window-option -g window-status-format "#{?#{e|<=|f|0:#{client_width},${compact_width}},${compact_window_status_format},${full_window_status_format}}"
+  tmux set-window-option -g window-status-current-format "#{?#{e|<=|f|0:#{client_width},${compact_width}},${compact_window_status_current_format},${full_window_status_current_format}}"
 }
 
 # run main function
