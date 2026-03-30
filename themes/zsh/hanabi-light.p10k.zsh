@@ -1,4 +1,4 @@
-# Hanabi Light Theme for Powerlevel10k (p10k) (Dracula-style dark alias)
+# Hanabi Light Theme for Powerlevel10k (p10k) (matching dark-palette alias)
 #
 # This file is a *color overlay* for an existing Powerlevel10k prompt config.
 # It intentionally does NOT set PROMPT/RPROMPT so that your prompt layout and

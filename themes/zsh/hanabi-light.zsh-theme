@@ -1,4 +1,4 @@
-# Hanabi Light Zsh Theme (Dracula-style dark alias)
+# Hanabi Light Zsh Theme (matching dark-palette alias)
 # Generated from palette/hanabi-seed-35.json
 #
 # Note:

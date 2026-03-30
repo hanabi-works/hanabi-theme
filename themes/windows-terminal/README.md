@@ -1,6 +1,6 @@
 # Windows Terminal Theme
 
-Hanabi dark color scheme for Windows Terminal plus a Dracula-style light alias.
+Hanabi dark color scheme for Windows Terminal plus a matching light alias.
 
 ## Files
 - `hanabi.json` - dark scheme

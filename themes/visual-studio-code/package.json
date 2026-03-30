@@ -1,7 +1,7 @@
 {
   "name": "hanabi-theme-vscode",
   "displayName": "Hanabi Theme (VS Code)",
-  "description": "Hanabi dark theme with a Dracula-style light alias for Visual Studio Code.",
+  "description": "Hanabi dark theme with a matching light alias for Visual Studio Code.",
   "version": "0.2.0",
   "publisher": "okash1n",
   "engines": {

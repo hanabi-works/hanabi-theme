@@ -1,6 +1,6 @@
 # Hanabi Theme for Cursor
 
-Hanabi dark theme with a Dracula-style light alias (same dark palette).
+Hanabi dark theme with a matching light alias (same dark palette).
 
 ![Hanabi Theme Preview](./images/preview.png)
 

@@ -1,6 +1,6 @@
 # Ghostty Theme
 
-Hanabi dark theme for Ghostty plus a Dracula-style light alias.
+Hanabi dark theme for Ghostty plus a matching light alias.
 
 ## Files
 - `hanabi` - dark theme file

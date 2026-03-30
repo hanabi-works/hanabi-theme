@@ -1,7 +1,7 @@
 {
   "name": "hanabi-theme-cursor",
   "displayName": "Hanabi Theme (Cursor)",
-  "description": "Hanabi dark theme with a Dracula-style light alias for Cursor.",
+  "description": "Hanabi dark theme with a matching light alias for Cursor.",
   "version": "0.2.0",
   "publisher": "okash1n",
   "engines": {

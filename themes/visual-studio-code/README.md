@@ -1,6 +1,6 @@
 # Hanabi Theme for Visual Studio Code
 
-High-contrast Hanabi dark theme with a Dracula-style light alias (same dark palette).
+High-contrast Hanabi dark theme with a matching light alias (same dark palette).
 
 ![Hanabi Theme Preview](./images/preview.png)
 

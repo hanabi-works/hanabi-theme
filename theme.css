@@ -13,7 +13,7 @@ body {
 
 .theme-dark,
 .theme-light {
-  /* Dracula-style: keep the same dark visual identity on both base schemes. */
+  /* Keep the same dark visual identity on both base schemes. */
   --color-scheme: dark;
 
   /* Hanabi base palette anchors (Seed 35). */

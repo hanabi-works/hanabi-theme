@@ -5,7 +5,7 @@ Hanabi is a high-contrast Obsidian app theme built from the shared Hanabi palett
 ## Modes
 
 - Dark mode: tuned via `.theme-dark`
-- Light mode: Dracula-style alias using the same dark palette via `.theme-light`
+- Light mode: matching alias using the same dark palette via `.theme-light`
 
 ## Files
 

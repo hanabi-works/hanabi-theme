@@ -1,6 +1,6 @@
 # Vim Theme
 
-Hanabi dark colorscheme for Vim/Neovim plus a Dracula-style light alias.
+Hanabi dark colorscheme for Vim/Neovim plus a matching light alias.
 
 ## Files
 - `colors/hanabi.vim` - dark colorscheme file

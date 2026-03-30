@@ -1,6 +1,6 @@
 # Hanabi Theme
 
-An original high-contrast theme family for terminals and editors (dark-first, with Dracula-style light aliases).
+An original high-contrast theme family for terminals and editors (dark-first, with matching light aliases).
 
 ![Hanabi Theme Preview](./samples/image.png)
 
@@ -33,6 +33,7 @@ The project is built from a shared palette source.
 | Ghostty | Ready | `themes/ghostty` |
 | iTerm2 | Ready | `themes/iterm2` |
 | Terminal.app (macOS) | Ready | `themes/terminal-app` |
+| tmux | Ready | `themes/tmux` |
 | [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=okash1n.hanabi-theme-vscode) | Ready | `themes/visual-studio-code` |
 | Windows Terminal | Ready | `themes/windows-terminal` |
 | Cursor | Ready | `themes/cursor` |
@@ -47,6 +48,7 @@ The project is built from a shared palette source.
 | Ghostty | Yes | Yes | `hanabi-light` is a dark-palette alias |
 | iTerm2 | Yes | Yes | `hanabi-light.itermcolors` is a dark-palette alias |
 | Terminal.app (macOS) | Yes | Yes | `Hanabi Light` profile is a dark-palette alias |
+| tmux | Yes | Yes | `hanabi-light.tmux` keeps the same dark palette |
 | Visual Studio Code | Yes | Yes | `Hanabi Light` keeps the same dark palette |
 | Windows Terminal | Yes | Yes | `hanabi-light.json` keeps the same dark palette |
 | Cursor | Yes | Yes | `Hanabi Light` keeps the same dark palette |
@@ -61,6 +63,7 @@ Each target has its own installation guide.
 - Ghostty: `themes/ghostty/INSTALL.md`
 - iTerm2: `themes/iterm2/INSTALL.md`
 - Terminal.app: `themes/terminal-app/INSTALL.md`
+- tmux: `themes/tmux/INSTALL.md`
 - Visual Studio Code: `themes/visual-studio-code/INSTALL.md`
 - Windows Terminal: `themes/windows-terminal/INSTALL.md`
 - Cursor: `themes/cursor/INSTALL.md`
@@ -81,6 +84,7 @@ Each target has its own installation guide.
     ├── ghostty
     ├── iterm2
     ├── terminal-app
+    ├── tmux
     ├── vim
     ├── visual-studio-code
     ├── windows-terminal
@@ -90,7 +94,7 @@ Each target has its own installation guide.
 
 ## Obsidian Theme
 
-Hanabi includes an Obsidian app theme where dark and light base schemes intentionally render the same dark visual identity (Dracula-style).
+Hanabi includes an Obsidian app theme where dark and light base schemes intentionally render the same dark visual identity.
 
 - Required files for Obsidian community theme publishing:
   - `manifest.json`
