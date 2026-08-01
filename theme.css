@@ -204,22 +204,22 @@ body {
 
 .theme-dark .callout[data-callout="note"],
 .theme-light .callout[data-callout="note"] {
-  --callout-color: 111, 144, 255;
+  --callout-color: rgb(111, 144, 255);
 }
 
 .theme-dark .callout[data-callout="tip"],
 .theme-light .callout[data-callout="tip"] {
-  --callout-color: 130, 250, 130;
+  --callout-color: rgb(130, 250, 130);
 }
 
 .theme-dark .callout[data-callout="warning"],
 .theme-light .callout[data-callout="warning"] {
-  --callout-color: 255, 240, 102;
+  --callout-color: rgb(255, 240, 102);
 }
 
 .theme-dark .callout[data-callout="danger"],
 .theme-light .callout[data-callout="danger"] {
-  --callout-color: 251, 101, 131;
+  --callout-color: rgb(251, 101, 131);
 }
 
 .theme-dark .checkbox-container,
